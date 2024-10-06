@@ -48,7 +48,7 @@ def convertir_aminoacido_a_numero(aminoacido):
 
 
 # Cargar todas las secuencias de proteínas desde los archivos FASTA
-directorio = "/home/miriam/Documentos/Cuarto GCID/BIO/proteins"
+directorio = "/ruta/proteins"
 secuencias_proteinas = cargar_secuencias_proteinas(directorio)
 
 # Preparar los datos para el entrenamiento del HMM
